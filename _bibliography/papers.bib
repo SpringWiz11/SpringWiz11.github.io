@@ -1,115 +1,124 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{tmlr = {Transactions on Machine Learning Research}}
+@string{clef = {CLEF 2025 Working Notes, CheckThat! Lab}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{gurumurthy2025federated,
+  abbr         = {TMLR},
+  title        = {Federated Spectral Graph Transformers Meet Neural Ordinary Differential Equations for Non-IID Graphs},
+  author       = {Gurumurthy, Kishan and Pal, Himanshu and Sharma, Charu},
+  journal      = tmlr,
+  year         = {2025},
+  selected     = {true},
+  bibtex_show  = {true},
+  arxiv        = {2504.11808},
+  html         = {https://openreview.net/forum?id=TR6iUG8i6Z},
+  code         = {https://github.com/SpringWiz11/Fed-GNODEFormer},
+  abstract     = {Centralizing large volumes of real-world graph data for GNN training is often impractical due to privacy concerns. We propose Fed-GNODEFormer, which couples spectral GNNs with neural ordinary differential equations to handle non-IID data distributions in federated settings. The method delivers significant improvements on non-IID heterophilic graphs while remaining competitive on homophilic datasets, with applications to social network analysis, recommendation, and fraud detection.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@article{devadiga2025universal,
+  abbr         = {TMLR},
+  title        = {Universal Differential Equations for Stable Multi-Step Volatility Time Series Forecasting},
+  author       = {Devadiga, Prasanna and Gurumurthy, Kishan and Mohan, Kshitij},
+  journal      = tmlr,
+  year         = {2025},
+  selected     = {true},
+  bibtex_show  = {true},
+  html         = {https://openreview.net/forum?id=uWGNexco2M},
+  abstract     = {We present a systematic study of Universal Differential Equations for financial volatility forecasting, a domain marked by regime shifts, heavy tails, and jump discontinuities. UDEs extend Neural ODEs by embedding mechanistic structure within learned dynamics, parameterizing coefficients of a partially known differential equation rather than learning the system purely from data. Across market regimes our variants outperform both continuous-time baselines and discrete-time models, achieving higher accuracy and greater long-horizon stability while remaining interpretable.}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{lal2025eventtempex,
+  abbr         = {FIRE},
+  title        = {EventTempEx: A Tool for Interpreting Event-Anchored Temporal Expressions},
+  author       = {Lal, Niharika and Rajpoot, Pawan Kumar and Gurumurthy, Kishan and Omar, Nadia},
+  booktitle    = {Proceedings of the 17th Annual Meeting of the Forum for Information Retrieval Evaluation (FIRE)},
+  year         = {2025},
+  bibtex_show  = {true},
+  code         = {https://github.com/SpringWiz11/EventTempEx},
+  abstract     = {Temporal expressions that anchor to events rather than to the calendar resist standard normalization. We classify temporal references into standard, event-contextual, complex, and historic types using a fine-tuned DeBERTa NER model, combining a Duckling parser for standard references with semantic-search backends for event-contextual ones.}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@inproceedings{warrier2024privacy,
+  abbr         = {INDISCON},
+  title        = {Privacy-Preserved Stress Detection from Wearables using Federated Learning},
+  author       = {Warrier, Lakshmi C. and Ragesh, G. K. and Samarth, B. B. R. and Gurumurthy, Kishan},
+  booktitle    = {2024 IEEE 5th India Council International Subsections Conference (INDISCON)},
+  pages        = {1--6},
+  year         = {2024},
+  publisher    = {IEEE},
+  bibtex_show  = {true},
+  abstract     = {On-device stress inference over wearable sensor streams, trained without centralizing physiological data.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+@incollection{mariappan2024textual,
+  abbr         = {Chapter},
+  title        = {Textual Analysis for Detection of Cyberstalking in Social Media Networks Using Federated Learning Technique},
+  author       = {Mariappan, R. and Gurumurthy, Kishan},
+  booktitle    = {Innovations in Modern Cryptography},
+  pages        = {457--480},
+  year         = {2024},
+  bibtex_show  = {true},
+  code         = {https://github.com/SpringWiz11/FedCSA-Federated_CyberStalking_Analysis}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+@article{gurumurthy2026atlas,
+  abbr         = {arXiv},
+  title        = {Geometric Function Atlas: Certified Computing for Geometric Function Theory in Python},
+  author       = {Gurumurthy, Kishan and Devadiga, Pushparaj and Devadiga, Prasanna and Suneesh, Arya and Sebastian, Asha},
+  journal      = {arXiv preprint arXiv:2609.07969},
+  year         = {2026},
+  selected     = {true},
+  bibtex_show  = {true},
+  arxiv        = {2609.07969},
+  abstract     = {An open-source Python package for the sharp extremal problems of geometric function theory, organized around a catalogue of thirty-nine Ma-Minda starlike generators. A three-tier verification approach -- a floating-point grid screen, an exact sufficient condition decided in rational arithmetic, and a certified interval enclosure -- backs every result with an evidence level and an artifact identifier. The distribution ships three hundred and six coefficient certificates and seven hundred and two directed inclusion radii. Released under the MIT license on PyPI.}
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
+@article{devadiga2026atlas,
+  abbr         = {arXiv},
+  title        = {The Geometric Function Atlas: A Software System for Radius and Coefficient Problems},
+  author       = {Devadiga, Prasanna and Gurumurthy, Kishan and Suneesh, Arya and Devadiga, Pushparaj and Sebastian, Asha},
+  journal      = {arXiv preprint arXiv:2608.15697},
+  year         = {2026},
+  bibtex_show  = {true},
+  arxiv        = {2608.15697}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+@inproceedings{gurumurthy2025subjectivity,
+  abbr         = {CLEF},
+  title        = {TIFIN at CheckThat! 2025: Cross-Lingual Subjectivity Classification in News through Monolingual, Multilingual, and Zero-Shot Learning},
+  author       = {Gurumurthy, Kishan and Shrivastava, Ashish and Rajpoot, Pawan Kumar and Devadiga, Prasanna and Hazarika, Bharatdeep and Jain, Manish and Sharma, Manan and Suneesh, Arya and Suresh, Anshuman B and Baliga, Aditya U},
+  booktitle    = clef,
+  year         = {2025},
+  bibtex_show  = {true},
+  html         = {https://ceur-ws.org/Vol-4038/paper_72.pdf},
+  note         = {Equal contribution with A. Shrivastava},
+  abstract     = {Binary classification separating subjective claims from objective reporting, evaluated across monolingual, multilingual, and zero-shot cross-lingual settings in Arabic, Bulgarian, English, German, and Italian. Resampling and class-weighting address the class imbalance in the training data.}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@inproceedings{sharma2025claim,
+  abbr         = {CLEF},
+  title        = {TIFIN at CheckThat! 2025: Reasoning-Guided Claim Normalization for Noisy Multilingual Social Media Posts},
+  author       = {Sharma, Manan and Suneesh, Arya and Jain, Manish and Rajpoot, Pawan Kumar and Devadiga, Prasanna and Hazarika, Bharatdeep and Shrivastava, Ashish and Gurumurthy, Kishan and Suresh, Anshuman B and Baliga, Aditya U},
+  booktitle    = clef,
+  year         = {2025},
+  bibtex_show  = {true},
+  arxiv        = {2511.05078},
+  html         = {https://ceur-ws.org/Vol-4038/paper_95.pdf},
+  award        = {3rd place, English leaderboard},
+  abstract     = {Transforming noisy social media posts into clear, verifiable statements across 20 languages. Systematic 5W1H decomposition enables robust cross-lingual transfer despite training exclusively on English data, using a LoRA fine-tuned Qwen3-14B with retrieval-augmented few-shot prompting and token-level recall filtering. Ranked 3rd on the English leaderboard and 4th on Dutch and Punjabi.}
+}
+
+@inproceedings{hazarika2025xverify,
+  abbr         = {CLEF},
+  title        = {TIFIN at CheckThat! 2025: X-VERIFY -- Multi-lingual NLI-based Fact Checking with Condensed Evidence},
+  author       = {Hazarika, Bharatdeep and Devadiga, Prasanna and Rajpoot, Pawan Kumar and Baliga, Aditya U and Gurumurthy, Kishan and Jain, Manish and Sharma, Manan and Shrivastava, Ashish and Suneesh, Arya and Suresh, Anshuman B},
+  booktitle    = clef,
+  year         = {2025},
+  bibtex_show  = {true},
+  html         = {https://ceur-ws.org/Vol-4038/paper_74.pdf},
+  award        = {3rd place, English and Arabic tracks},
+  abstract     = {Verifying numerical claims as True, False, or Conflicting from retrieved evidence. The pipeline combines optimized evidence selection, LLM-based summarization with IBM Granite 3.3 8B, and a LoRA fine-tuned DeBERTa-large classifier. Multilingual augmentation lifts macro-F1 from 0.5815 to 0.6859, a 17.95% relative gain. Ranked 3rd in both English and Arabic.}
 }
