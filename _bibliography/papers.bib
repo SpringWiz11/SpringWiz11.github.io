@@ -2,7 +2,6 @@
 ---
 
 @string{tmlr = {Transactions on Machine Learning Research}}
-@string{clef = {CLEF 2025 Working Notes, CheckThat! Lab}}
 
 @article{gurumurthy2025federated,
   abbr         = {TMLR},
@@ -86,39 +85,3 @@
   arxiv        = {2608.15697}
 }
 
-@inproceedings{gurumurthy2025subjectivity,
-  abbr         = {CLEF},
-  title        = {TIFIN at CheckThat! 2025: Cross-Lingual Subjectivity Classification in News through Monolingual, Multilingual, and Zero-Shot Learning},
-  author       = {Gurumurthy, Kishan and Shrivastava, Ashish and Rajpoot, Pawan Kumar and Devadiga, Prasanna and Hazarika, Bharatdeep and Jain, Manish and Sharma, Manan and Suneesh, Arya and Suresh, Anshuman B and Baliga, Aditya U},
-  booktitle    = clef,
-  year         = {2025},
-  bibtex_show  = {true},
-  html         = {https://ceur-ws.org/Vol-4038/paper_72.pdf},
-  note         = {Equal contribution with A. Shrivastava},
-  abstract     = {Binary classification separating subjective claims from objective reporting, evaluated across monolingual, multilingual, and zero-shot cross-lingual settings in Arabic, Bulgarian, English, German, and Italian. Resampling and class-weighting address the class imbalance in the training data.}
-}
-
-@inproceedings{sharma2025claim,
-  abbr         = {CLEF},
-  title        = {TIFIN at CheckThat! 2025: Reasoning-Guided Claim Normalization for Noisy Multilingual Social Media Posts},
-  author       = {Sharma, Manan and Suneesh, Arya and Jain, Manish and Rajpoot, Pawan Kumar and Devadiga, Prasanna and Hazarika, Bharatdeep and Shrivastava, Ashish and Gurumurthy, Kishan and Suresh, Anshuman B and Baliga, Aditya U},
-  booktitle    = clef,
-  year         = {2025},
-  bibtex_show  = {true},
-  arxiv        = {2511.05078},
-  html         = {https://ceur-ws.org/Vol-4038/paper_95.pdf},
-  award        = {3rd place, English leaderboard},
-  abstract     = {Transforming noisy social media posts into clear, verifiable statements across 20 languages. Systematic 5W1H decomposition enables robust cross-lingual transfer despite training exclusively on English data, using a LoRA fine-tuned Qwen3-14B with retrieval-augmented few-shot prompting and token-level recall filtering. Ranked 3rd on the English leaderboard and 4th on Dutch and Punjabi.}
-}
-
-@inproceedings{hazarika2025xverify,
-  abbr         = {CLEF},
-  title        = {TIFIN at CheckThat! 2025: X-VERIFY -- Multi-lingual NLI-based Fact Checking with Condensed Evidence},
-  author       = {Hazarika, Bharatdeep and Devadiga, Prasanna and Rajpoot, Pawan Kumar and Baliga, Aditya U and Gurumurthy, Kishan and Jain, Manish and Sharma, Manan and Shrivastava, Ashish and Suneesh, Arya and Suresh, Anshuman B},
-  booktitle    = clef,
-  year         = {2025},
-  bibtex_show  = {true},
-  html         = {https://ceur-ws.org/Vol-4038/paper_74.pdf},
-  award        = {3rd place, English and Arabic tracks},
-  abstract     = {Verifying numerical claims as True, False, or Conflicting from retrieved evidence. The pipeline combines optimized evidence selection, LLM-based summarization with IBM Granite 3.3 8B, and a LoRA fine-tuned DeBERTa-large classifier. Multilingual augmentation lifts macro-F1 from 0.5815 to 0.6859, a 17.95% relative gain. Ranked 3rd in both English and Arabic.}
-}

@@ -26,7 +26,7 @@ latest_posts:
 
 I build models that get their strength from **imposed structure** rather than from scale — spectral operators on graphs, differential equations as architectures, mechanistic priors inside learned dynamics, and exact arithmetic where a floating-point answer isn't good enough. A second thread runs through most of it: learning when the data **cannot be centralized**, and when the clients disagree.
 
-My work has appeared in [TMLR](https://openreview.net/forum?id=TR6iUG8i6Z), FIRE, and the CLEF CheckThat! Lab, where our systems placed third in three multilingual fact-checking tracks. I studied Computer Science and Engineering at the [Indian Institute of Information Technology, Kottayam](https://www.iiitkottayam.ac.in/).
+My work has appeared in [TMLR](https://openreview.net/forum?id=TR6iUG8i6Z) and FIRE. I studied Computer Science and Engineering at the [Indian Institute of Information Technology, Kottayam](https://www.iiitkottayam.ac.in/).
 
 ### Research interests
 
@@ -36,7 +36,7 @@ My work has appeared in [TMLR](https://openreview.net/forum?id=TR6iUG8i6Z), FIRE
 
 **Federated and decentralized learning.** Optimization under non-IID clients and privacy constraints, where the data never moves.
 
-**Language representation learning.** Multilingual transfer from English-only supervision; automated fact-checking under distribution shift.
+**Language representation learning.** Temporal and event-anchored structure in text, and transfer under limited supervision.
 
 **Certified and reproducible computation.** Interval enclosures, exact rational decision procedures, and results that ship with replayable proofs rather than a seed.
 
